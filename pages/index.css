@@ -1,0 +1,19 @@
+@import "../vendors";
+
+@import "../blocks/content.css";
+
+@import "../blocks/page.css";
+
+@import "../blocks/nav.css";
+
+@import "../blocks/header.css";
+
+@import "../blocks/about.css";
+
+@import "../blocks/hobbies.css";
+
+@import "../blocks/projects.css";
+
+@import "../blocks/contact.css";
+
+@import "../blocks/footer.css";

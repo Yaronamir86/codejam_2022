@@ -1,0 +1,65 @@
+.contact{
+    max-width: 85%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.contact__title{
+    margin: auto;
+    font-size: 2.5rem;
+    line-height: 40px;
+    color: white;
+    padding-bottom: 30px;
+    max-width: 85%;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.contact__form{
+   width: 96%; 
+}
+
+.contact__input{
+    width: 96%;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: "iceland", cursive;
+    border: none;
+}
+
+.contact__faq{
+    
+    width: 96%;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    height: 160px;
+    font-size: 1.25rem;
+    line-height: 20px;
+    color: black;
+    font-family: "iceland", cursive;
+    }
+
+.contact__buttons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 96%;
+}
+
+.contact__button{
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-family: "iceland", cursive;
+    font-size: 1.25rem;
+}
+
+.contact__button:hover{
+    opacity: 0.8;
+}

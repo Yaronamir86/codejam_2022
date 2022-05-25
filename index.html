@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="landing page made for fictional character"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <meta name="authors" content="ANY team" />
+    <meta name="keywords" content="HTML, CSS" />
+    <title>andy's page</title>
+  </head>
+  <body>
+    <div class="page">
+      <nav class="nav">
+        <div class="nav__logo">AY</div>
+        <a class="nav__link" href="#">
+          <img
+            class="nav__menu"
+            src="./images/Nav.svg"
+            alt="three stripes icon"
+        /></a>
+      </nav>
+      <header class="header">
+        <h1 class="header__title">Hi, My name is</h1>
+        <span class="header__title header__title-span">Andrew Yin</span>
+        <p class="header__subtitle">and I am a Web Developer</p>
+        <img
+          class="header__image"
+          src="./images/Andy's portret.svg"
+          alt="portrait of andy"
+        />
+      </header>
+      <main class="content">
+        <div class="about">
+          <h2 class="about__title">ABOUT ME</h2>
+          <img
+            class="about__image"
+            src="./images/About pic.svg"
+            alt="picture of andy holding a board"
+          />
+          <article class="about__content">
+            Every day, we all deal with projects and products of web
+            development, often without even thinking that it's not just a
+            website but a product of long, diligent teamwork.
+          </article>
+          <article class="about__content">
+            However, my encounter with web design started not long ago. Having
+            graduated from college as an electrical engineer, I needed to figure
+            out what I want to do next. I am into STEM subjects, and at one
+            point I even wanted to go to graduate school, but later abandoned
+            the idea. During my college days, I used to go to a lot of meetups,
+            and it was at one of these events that I met Elise. d in STEM Well…
+          </article>
+          <article class="about__content">
+            Later on over a cup of coffee, it turned out that Elise is a
+            frequent visitor of such events. Moreover, she is an active
+            volunteer of GOG (Google Developer's Group), and it was at a GOG's
+            event that we met. Elise told me about Practicum, a program that she
+            had previously completed herself and then after a while they invited
+            her to work with them as a mentor.
+          </article>
+          <article class="about__content">
+            I got so inspired by that program that I couldn't wait to start
+            studying and, more importantly, launching projects that I had been
+            designing for some time already. That's how, seemingly easily, my
+            long road to becoming a web developer began!
+          </article>
+        </div>
+        <div class="hobbies">
+          <h2 class="hobbies__title">Hobbies</h2>
+          <img class="hobbies__image" src="./images/hobby img.svg" />
+          <article class="hobbies__content">
+            Although in college I was nicknamed a nerd, I am quite an all-round
+            and sociable person, and my interests are not limited to
+            mathematics. I love reading, mostly science fiction and fantasy, but
+            I don't forget about non-fiction either. In college, I got
+            interested in computer games. We even created our own clan in World
+            of Warcraft and competed with other clans. But my main passion is
+            music. I've been playing drums since I was a kid, I graduated from a
+            music high school. My best friends are play in a band, and now they
+            want to record an album. It was music that inspired me to create my
+            projects, some of which were charity projects. With these projects,
+            not only was I able to create my portfolio but also launched useful
+            websites that are still operating.
+          </article>
+        </div>
+        <div class="projects">
+          <h2 class="projects__title">Projects</h2>
+          <ul class="projects__list">
+            <li class="projects__list-item">
+              <h3 class="projects__list-title">Recording studio web app</h3>
+              <p class="projects__list-content">
+                I decided to help the recording studio where my favorite artists
+                make their records. I'm going to create a webpage for the
+                studio. The page will include the contact information, a gallery
+                of artists, and upcoming events.
+              </p>
+            </li>
+            <li class="projects__list-item">
+              <h3 class="projects__list-title">
+                Landing page for my friend’s music band
+              </h3>
+              <p class="projects__list-content">
+                Musicians need their own pages to share the latest releases and
+                post gig announcements. I'm going to create a landing page for
+                my favorite music band.
+              </p>
+            </li>
+            <li class="projects__list-item">
+              <h3 class="projects__list-title">
+                Website for my hometown music school “ANY”
+              </h3>
+              <p class="projects__list-content">
+                A local music school needs a landing page where they can add
+                information about courses, available music instruments, and
+                upcoming gigs and events.
+              </p>
+            </li>
+            <li class="projects__list-item">
+              <h3 class="projects__list-title">
+                Gaming community landing page for our team
+              </h3>
+              <p class="projects__list-content">
+                creating a landing page of a game squad or a community for a
+                specific genre of games.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2 class="contact__title">Let’s collaborate!</h2>
+          <form class="contact__form" action="submit" autocomplete="off"></form>
+          <input
+            class="contact__input"
+            type="text"
+            name="email"
+            placeholder="Please type your email"
+            required
+          />
+          <textarea
+            class="contact__faq"
+            name="message-text"
+            placeholder="Do you have a question?"
+            minlength="5"
+            required
+          >
+          </textarea>
+          <div class="contact__buttons">
+            <button class="contact__button contact__button_type_reset">
+              Reset
+            </button>
+            <button class="contact__button contact__button_type_submit">
+              Reset
+            </button>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <ul class="footer__media">
+          <li class="footer__media-item">
+            <a class="footer__media-link">
+              <img class="footer__media-icon" src="./images/image 1.svg" />
+            </a>
+          </li>
+          <li class="footer__media-item">
+            <a class="footer__media-link">
+              <img class="footer__media-icon" src="./images/image 5.svg" />
+            </a>
+          </li>
+          <li class="footer__media-item">
+            <a class="footer__media-link">
+              <img class="footer__media-icon" src="./images/image 2.svg" />
+            </a>
+          </li>
+          <li class="footer__media-item">
+            <a class="footer__media-link">
+              <img class="footer__media-icon" src="./images/image 4.svg" />
+            </a>
+          </li>
+          <li class="footer__media-item">
+            <a class="footer__media-link">
+              <img class="footer__media-icon" src="./images/image 3.svg" />
+            </a>
+          </li>
+        </ul>
+        <div class="footer__copyrights">
+          <p class="footer__copiright">Anastasia Shavrova</p>
+          <p class="footer__copiright">Nitsa Saban</p>
+          <p class="footer__copiright">Yaron Amir</p>
+          <p class="footer__copiright">©2022.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

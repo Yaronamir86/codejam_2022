@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 30px;
+    width: 85%;
+    min-width: 280px;
+    margin: auto;
+}
+
+.header__title{
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 42px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.header__title-span{
+    color: white;
+}
+
+.header__subtitle{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.header__image{
+    margin: auto;
+    max-width: 280px;
+}

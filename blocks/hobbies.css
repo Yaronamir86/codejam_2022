@@ -1,0 +1,29 @@
+.hobbies{
+    padding-top: 26px;
+    padding-bottom: 40px;
+   width: 85%;
+   margin: auto;
+
+}
+
+.hobbies__title{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.hobbies__image{
+    max-width: 280px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+.hobbies__content{
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: white;
+
+}
