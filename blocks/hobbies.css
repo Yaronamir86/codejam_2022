@@ -3,6 +3,8 @@
     padding-bottom: 40px;
    width: 85%;
    margin: auto;
+   align-content: center;
+    justify-content: center;
 
 }
 
@@ -11,6 +13,7 @@
     font-size: 2.5rem;
     line-height: 40px;
     text-align: center;
+    justify-content: center;
     margin: 0;
 }
 
@@ -25,5 +28,32 @@
     font-size: 1.5rem;
     line-height: 22px;
     color: white;
+}
 
+@media screen and ( min-width:768px) {
+
+    .hobbies__title{
+    max-width: 50%;
+    margin: 0;
+    align-self: center;
+    line-height: 60px;
+}
+
+
+    
+    .hobbies__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .hobbies__image{
+        margin: 0;
+    }
+
+    .hobbies__content{
+        font-size: 2rem;
+        line-height: 34px;
+    }
 }

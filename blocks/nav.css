@@ -5,9 +5,29 @@
     padding-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    width: 85%;
+    max-width: 85%;
     min-width: 260px;
     margin: auto;
+    color: white;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    visibility: collapse;
+    padding-left: 0;
+    max-width: 200px;
+}
+
+.nav__list-item{
+    font-size: 1.25rem;
+    line-height: 20px;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
 }
 
 .nav__logo{
@@ -19,8 +39,25 @@
 
 .nav__menu{
     justify-self: flex-end;
+    /*visibility: collapse;*/
 }
 
 .nav__link:hover{
     opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav__list{
+        flex-grow: 2; 
+        max-width: 80%;
+    }
+    .nav__link{
+       visibility: visible;
+       
+    }
+
+    .nav__menu{
+        visibility: collapse;
+    }
 }
