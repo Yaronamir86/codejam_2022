@@ -1,21 +1,18 @@
 .page {
-    background-color: #0882FF;
-    color: black;
-    min-width: 320px;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    text-rendering: optimizeLegibility;
-    font-family: 'Iceland', 'cursive';
-    font-family: 'Noto Serif', serif;
-    }
+  background-color: #0882ff;
+  color: black;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  font-family: "Iceland", "cursive";
+  font-family: "Noto Serif", serif;
+}
 
-    @media screen and (min-width:1280px) {
-        .page{
-            max-width: 1280px;
-            margin: auto;
-        }
-       
-    }
-
-    
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 1280px;
+    margin: auto;
+  }
+}

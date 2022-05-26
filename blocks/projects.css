@@ -1,88 +1,89 @@
-.projects{
-    width: 100%;
-    border-radius: 20px;
-    background-color: white;
-    padding-bottom: 35px;
-    color: #0882FF;
+.projects {
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+  padding-bottom: 35px;
+  color: #0882ff;
 }
 
-.projects__title{
-    font-size: 2.5rem;
-    line-height: 40px;
-    margin: 0;
-    text-align: center;
-    padding-top: 20px;
-    font-family: 'Iceland', 'cursive';
+.projects__title {
+  font-size: 2.5rem;
+  line-height: 40px;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Iceland", "cursive";
 }
 
-.projects__list{
-    display: grid;
-    gap: 20px;
-    padding-left: 0;
+.projects__list {
+  display: grid;
+  gap: 20px;
+  padding-left: 0;
 }
 
-.projects__list-item{
-    border: 1px solid #0882FF;
-    border-radius: 20px;
-    list-style: none;
-    margin: auto;
-    width: 85%;
-
+.projects__list-item {
+  border: 1px solid #0882ff;
+  border-radius: 20px;
+  list-style: none;
+  margin: auto;
+  width: 85%;
 }
 
-.projects__list-title{
-    font-size: 1.625rem;
-    line-height: 28px;
-    text-align: center;
-    max-width: 85%;
-    margin: auto;
-    padding-top: 15px;
-    font-family: 'Iceland', 'cursive';
+.projects__list-title {
+  font-size: 1.625rem;
+  line-height: 28px;
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+  padding-top: 15px;
+  font-family: "Iceland", "cursive";
 }
 
-.projects__list-content{
-    padding-top: 30px;
-    font-size: 1rem;
-    line-height: 22px;
-    text-align: center;
-    max-width: 85%;
-    margin: auto;
-    padding-bottom: 40px;
+.projects__list-content {
+  padding-top: 30px;
+  font-size: 1rem;
+  line-height: 22px;
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
+  .projects__title {
+    font-size: 2.5rem;
+    text-align: left;
+    max-width: 85%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
 
-    
-    .projects__title{
-        font-size: 2.5rem;
-        text-align: left;
-        max-width: 85%;
-        margin: auto;
-        padding-bottom: 30px;
-    }
+  .projects__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin: auto;
+    max-width: 85%;
+  }
 
-    .projects__list{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 30px;
-        margin: auto;
-        max-width: 85%;
-    }
+  .projects__list-item {
+    min-width: 320px;
+    min-height: 320px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 2px, solid, #0882ff;
+    box-shadow: 2px 2px rgba(69, 120, 248, 0.97);
+  }
 
-    .projects__list-item{
-        min-width: 320px;
-        min-height: 320px;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        border: 2px, solid, #0882FF;
-        box-shadow: 2px 2px rgba(69, 120, 248, 0.97);
+  .projects__list-content {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
 
-    }
-
-    .projects__list-content{
-        font-size: 1.5rem;
-        line-height: 30px;
-    }
+  .projects__list-title {
+    font-size: 2.15rem;
+    line-height: 40px;
+  }
 }

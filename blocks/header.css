@@ -1,75 +1,75 @@
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 36px;
-    padding-bottom: 30px;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 30px;
+  width: 85%;
+  min-width: 280px;
+  margin: auto;
+  color: white;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 42px;
+  font-family: "Iceland", "cursive";
+  margin: auto;
+}
+
+.header__title-span {
+  text-shadow: 6px -6px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header__subtitle {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 40px;
+  font-family: "Iceland", "cursive";
+}
+
+.header__image {
+  margin: auto;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
     width: 85%;
-    min-width: 280px;
-    margin: auto;
-    color: white;
-}
-
-.header__title{
     display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 2.5rem;
-    line-height: 42px;
-    font-family: 'Iceland', 'cursive'; 
-    margin: auto;
-    
-}
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
 
-.header__title-span{
-    
-    text-shadow: 6px -6px 2px rgba(0, 0, 0, 0.3);
-}
+  .header__content {
+    min-width: 50%;
+  }
 
-.header__subtitle{
-    text-align: center;
+  .header__title {
+    text-align: left;
+    justify-content: flex-start;
     margin: 0;
-    padding-bottom: 20px;
-    font-size: 1.5rem;
-    line-height: 40px;
-    font-family: 'Iceland', 'cursive';
-}
+    font-size: 3.25rem;
+    line-height: 60px;
+    min-width: 70%;
+  }
 
-.header__image{
-    margin: auto;
-    max-width: 90%;
-}
+  .header__subtitle {
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+    font-size: 2rem;
+  }
 
-@media screen and (min-width:768px) {
-    .header{
-        width: 85%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .header__content{
-        min-width: 50%;
-    }
-
-    .header__title{
-        text-align: left;
-        justify-content: flex-start;
-        margin: 0;
-        font-size: 3.25rem;
-        line-height: 60px;
-        min-width: 70%;
-    }
-
-    .header__subtitle{
-        text-align: left;
-        margin: 0;
-        padding-top: 20px;
-        padding-bottom: 0;
-        font-size: 2rem;
-    }
-
-    .header__image{
-        margin: 0;
-    }
+  .header__image {
+    margin: 0;
+  }
 }

@@ -1,66 +1,68 @@
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    max-width: 85%;
-    min-width: 260px;
-    margin: auto;
-    color: white;
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  max-width: 85%;
+  min-width: 260px;
+  margin: auto;
+  color: white;
 }
 
-.nav__list{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    visibility: collapse;
-    padding-left: 0;
-    max-width: 150px;
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  visibility: collapse;
+  padding-left: 0;
+  max-width: 150px;
 }
 
-.nav__list-item{
-    font-size: 1.25rem;
-    line-height: 20px;
+.nav__list-item {
+  font-size: 1.25rem;
+  line-height: 20px;
 }
 
-.nav__link{
-    color: white;
-    text-decoration: none;
-    text-shadow: 2px -2px rgba(4, 45, 128, 0.6);
-    transition: 0.3s ease-in-out;
+.nav__link {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px -2px rgba(4, 45, 128, 0.6);
+  transition: 0.3s ease-in-out;
 }
 
-.nav__logo{
-    font-size: 1.5rem;
-    line-height: 24px;
-    padding: 10px;
-    border: 3px solid #FFFFFF;
+.nav__logo {
+  font-size: 1.5rem;
+  line-height: 24px;
+  padding: 10px;
+  border: 3px solid #ffffff;
 }
 
-.nav__menu{
-    justify-self: flex-end;
-    /*visibility: collapse;*/
+.nav__menu {
+  justify-self: flex-end;
+  /*visibility: collapse;*/
 }
 
-.nav__link:hover{
-    opacity: 0.8;
-    text-shadow: 3px 3px rgba(4, 45, 128, 0.6);
+.nav__link:hover {
+  opacity: 0.8;
+  text-shadow: 2px 2px rgba(8, 65, 180, 0.5);
 }
 
 @media screen and (min-width: 768px) {
+  .nav__list {
+    flex-grow: 2;
+    max-width: 80%;
+  }
 
-    .nav__list{
-        flex-grow: 2; 
-        max-width: 80%;
-    }
-    .nav__link{
-       visibility: visible;
-       
-    }
+  .nav__list-item {
+    font-size: 1.5rem;
+  }
+  .nav__link {
+    visibility: visible;
+  }
 
-    .nav__menu{
-        visibility: collapse;
-    }
+  .nav__menu {
+    visibility: collapse;
+  }
 }
