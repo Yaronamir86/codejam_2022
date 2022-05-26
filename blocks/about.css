@@ -27,6 +27,7 @@
 .about__header{
     max-width: 85%;
     margin: auto;
+    
 }
 
 .about__image{
@@ -40,7 +41,7 @@
     padding-bottom: 20px;
     margin: auto;
     font-size: 1.25rem;
-    line-height: 20px;
+    line-height: 24px;
     max-width: 85%;
     text-align: center;
     }
@@ -84,7 +85,28 @@
     }
 
     @media screen and (min-width:1024px) {
+        .about{
+            padding-bottom: 30px
+            ;
+        }
         .about__title{
             font-size: 4.5rem;
+        }
+
+        .about__content{
+            font-size: 1.25rem;
+            line-height: 26px;
+            padding-top: 20px;
+            float: inline-start;
+            padding-bottom: 0;
+            
+        }
+
+        .about__header{
+            max-width: 70%;
+        }
+
+        .about__image{
+            max-width: 40%;
         }
     }
