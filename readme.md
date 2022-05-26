@@ -1,6 +1,6 @@
 # Spring Codejam: personal webpage for Andy and website for the music school
-![Begining](./images/Andy's%20page.png)
-![Begining](./images/ANY%20school.jpg)
+![Begining](./images/andy's-page.jpeg)
+![Begining](./images/school-ANY-school.jpeg)
 
 ## Overview
 As part of this hackathon, we created our own unique projects in accordance with the task
