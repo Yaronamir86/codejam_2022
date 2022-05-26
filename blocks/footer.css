@@ -36,4 +36,8 @@
   .footer__media-icon {
     width: 105px;
   }
+  .footer{
+    padding-bottom: 20px;
+  }
+  
 }
