@@ -29,6 +29,7 @@
   width: 85%;
 }
 
+
 .projects__list-title {
   font-size: 1.625rem;
   line-height: 28px;
@@ -75,6 +76,11 @@
     width: 100%;
     border: 2px, solid, #0882ff;
     box-shadow: 2px 2px rgba(69, 120, 248, 0.97);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .projects__list-item:hover{
+    box-shadow: 8px 8px rgba(69, 120, 248, 0.97);
   }
 
   .projects__list-content {
