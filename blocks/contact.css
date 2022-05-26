@@ -13,6 +13,7 @@
     max-width: 85%;
     text-align: center;
     letter-spacing: 2.5px;
+    font-family: 'Iceland', 'cursive';
 }
 
 .contact__form{
@@ -49,6 +50,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 96%;
+    margin: auto;
 }
 
 .contact__button{

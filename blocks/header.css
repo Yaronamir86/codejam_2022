@@ -12,10 +12,11 @@
 
 .header__title{
     display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 2.5rem;
     line-height: 42px;
-    max-width: 200px;
+    font-family: 'Iceland', 'cursive'; 
     margin: auto;
     
 }
@@ -31,6 +32,7 @@
     padding-bottom: 20px;
     font-size: 1.5rem;
     line-height: 40px;
+    font-family: 'Iceland', 'cursive';
 }
 
 .header__image{

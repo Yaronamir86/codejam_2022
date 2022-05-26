@@ -21,11 +21,13 @@
     padding-top: 20px;
     max-width: 85%;
     margin: auto;
+    font-family: 'Iceland', 'cursive';
 }
 
 .about__image{
-    width: 280px;
+    width: 100%;
     align-self: center;
+    
 }
 
 .about__content{

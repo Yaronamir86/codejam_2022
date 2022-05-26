@@ -12,6 +12,7 @@
     margin: 0;
     text-align: center;
     padding-top: 20px;
+    font-family: 'Iceland', 'cursive';
 }
 
 .projects__list{
@@ -36,6 +37,7 @@
     max-width: 85%;
     margin: auto;
     padding-top: 15px;
+    font-family: 'Iceland', 'cursive';
 }
 
 .projects__list-content{
