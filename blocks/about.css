@@ -24,6 +24,11 @@
     font-family: 'Iceland', 'cursive';
 }
 
+.about__header{
+    max-width: 85%;
+    margin: auto;
+}
+
 .about__image{
     width: 100%;
     align-self: center;
