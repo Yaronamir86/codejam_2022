@@ -1,4 +1,6 @@
-@import "../vendors";
+@import "../vendors/normalize.css";
+
+@import "../blocks/body.css";
 
 @import "../blocks/content.css";
 

@@ -15,12 +15,21 @@
   margin: 0;
 }
 
+.footer__media-link{
+  transition: all 0.3s ease-in-out;
+}
+
 .footer__media-link:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .footer__media-icon {
   width: 42px;
+}
+
+.footer__copiright{
+  margin: 0;
+  padding-top: 15px;
 }
 
 

@@ -54,6 +54,7 @@
 
     .header__title{
         text-align: left;
+        justify-content: flex-start;
         margin: 0;
         font-size: 3.25rem;
         line-height: 60px;
